@@ -1,0 +1,21 @@
+baseURL = "https://brettmack.me"
+languageCode = "en-gb"
+title = "Brett Mack"
+theme = "hugo-uno"
+canonifyurls = true
+author = "Brett Mack"
+buildDrafts = true
+
+[indexes]
+    category = "categories"
+    tag = "tags"
+[Params]
+    AuthorName = "Brett"
+    github = "devopsbrett"
+    twitter = "phpops"
+    email = "me@brettmack.me"
+    description = "A collection of random musings... and dockerfiles"
+    linkedin = "brett1984"
+    cv = "/pdfs/cv.pdf"
+    labs = "/lab/"
+    logo = "/img/mypic.png"

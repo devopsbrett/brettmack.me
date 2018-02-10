@@ -1,0 +1,15 @@
+{{ partial "head.html" . }}
+<body>
+    {{ partial "sidebar.html" . }}
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            <div id="{{ .Site.Data.files.cv.Filetype }}">
+                <object type="{{ .Site.Data.files.cv.Mimetype }}" data="{{ .Site.Data.files.cv.Filename }}" id="pdf_content">
+                    <p>Insert your error message here, if the PDF cannot be displayed.</p>
+                </object>
+            </div>
+        </div>
+    </div>
+</body>
+{{ partial "script.html" .}}
+</html>
